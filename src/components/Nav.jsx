@@ -1,6 +1,6 @@
-import { hamburger } from "../assets/icons";
-import { headerLogo } from "../assets/images";
-import { navLinks } from "../constants";
+import { hamburger } from '../assets/icons'
+import { headerLogo } from '../assets/images'
+import { navLinks } from '../constants'
 
 const Nav = () => {
   return (
@@ -37,7 +37,7 @@ const Nav = () => {
         </div>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav
