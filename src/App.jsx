@@ -11,7 +11,7 @@ import {
 } from './sections'
 const App = () => {
   return (
-    <main className='relative'>
+    <section className='relative'>
       <Nav />
       <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />
@@ -37,7 +37,7 @@ const App = () => {
       <section className=' bg-black padding-x padding-t pb-8'>
         <Footer />
       </section>
-    </main>
+    </section>
   )
 }
 
